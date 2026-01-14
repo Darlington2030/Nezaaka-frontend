@@ -1,0 +1,313 @@
+export const properties = [
+  {
+    id: "1",
+    title: "Luxury Beachfront Villa",
+    location: "Maldives, South Malé Atoll",
+    description: "Experience paradise in this stunning overwater villa with private pool, direct ocean access, and breathtaking sunset views. Perfect for a romantic getaway or honeymoon.",
+    price: 450,
+    maxGuests: 4,
+    rating: 4.9,
+    reviewCount: 128,
+    images: [
+      "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=800&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&auto=format&fit=crop&q=60",
+    ],
+    amenities: ["Pool", "Ocean View", "Air Conditioning", "Free WiFi", "Kitchen", "Washer"],
+    host: {
+      name: "Sarah Johnson",
+      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=60",
+      joinedYear: 2019,
+      responseRate: 98,
+    },
+  },
+  {
+    id: "2",
+    title: "Modern Mountain Chalet",
+    location: "Swiss Alps, Zermatt",
+    description: "Cozy alpine retreat with stunning Matterhorn views. Features a hot tub, fireplace, and ski-in/ski-out access. Ideal for winter sports enthusiasts.",
+    price: 320,
+    maxGuests: 6,
+    rating: 4.8,
+    reviewCount: 89,
+    images: [
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&auto=format&fit=crop&q=60",
+    ],
+    amenities: ["Hot Tub", "Fireplace", "Mountain View", "Ski Access", "Parking", "Pet Friendly"],
+    host: {
+      name: "Hans Mueller",
+      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=60",
+      joinedYear: 2020,
+      responseRate: 95,
+    },
+  },
+  {
+    id: "3",
+    title: "Charming Paris Apartment",
+    location: "Paris, Le Marais",
+    description: "Elegant Parisian apartment in the heart of Le Marais. Walking distance to the Louvre, Notre-Dame, and the best cafés in the city.",
+    price: 180,
+    maxGuests: 2,
+    rating: 4.7,
+    reviewCount: 234,
+    images: [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&auto=format&fit=crop&q=60",
+    ],
+    amenities: ["City View", "Air Conditioning", "Free WiFi", "Kitchen", "Washer", "Elevator"],
+    host: {
+      name: "Marie Dubois",
+      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=60",
+      joinedYear: 2018,
+      responseRate: 100,
+    },
+  },
+  {
+    id: "4",
+    title: "Tropical Treehouse Escape",
+    location: "Bali, Ubud",
+    description: "Unique bamboo treehouse surrounded by lush jungle and rice paddies. Includes yoga deck and private butler service.",
+    price: 275,
+    maxGuests: 2,
+    rating: 4.95,
+    reviewCount: 156,
+    images: [
+      "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&auto=format&fit=crop&q=60",
+    ],
+    amenities: ["Jungle View", "Yoga Deck", "Breakfast Included", "Free WiFi", "Butler Service"],
+    host: {
+      name: "Wayan Sukma",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=60",
+      joinedYear: 2017,
+      responseRate: 99,
+    },
+  },
+  {
+    id: "5",
+    title: "Historic Tuscan Farmhouse",
+    location: "Tuscany, Chianti Region",
+    description: "Restored 16th-century farmhouse with vineyard views. Features a private pool, wine cellar, and authentic Italian cooking classes.",
+    price: 395,
+    maxGuests: 8,
+    rating: 4.85,
+    reviewCount: 102,
+    images: [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&auto=format&fit=crop&q=60",
+    ],
+    amenities: ["Pool", "Vineyard View", "Wine Cellar", "Kitchen", "Parking", "BBQ"],
+    host: {
+      name: "Giuseppe Rossi",
+      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=60",
+      joinedYear: 2016,
+      responseRate: 97,
+    },
+  },
+  {
+    id: "6",
+    title: "Sleek Tokyo Loft",
+    location: "Tokyo, Shibuya",
+    description: "Ultra-modern loft in the heart of Shibuya. Floor-to-ceiling windows, smart home features, and access to rooftop bar.",
+    price: 210,
+    maxGuests: 3,
+    rating: 4.6,
+    reviewCount: 178,
+    images: [
+      "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800&auto=format&fit=crop&q=60",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&auto=format&fit=crop&q=60",
+    ],
+    amenities: ["City View", "Smart Home", "Gym Access", "Free WiFi", "Rooftop Bar"],
+    host: {
+      name: "Yuki Tanaka",
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=60",
+      joinedYear: 2021,
+      responseRate: 94,
+    },
+  },
+];
+
+export const reviews = [
+  {
+    id: "1",
+    propertyId: "1",
+    userName: "Michael Chen",
+    userAvatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=60",
+    rating: 5,
+    date: "December 2024",
+    comment: "Absolutely breathtaking! The villa exceeded all expectations. The private pool overlooking the ocean was magical, especially at sunset.",
+  },
+  {
+    id: "2",
+    propertyId: "1",
+    userName: "Emma Wilson",
+    userAvatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=60",
+    rating: 5,
+    date: "November 2024",
+    comment: "Perfect for our honeymoon! Sarah was an amazing host, very responsive and helpful with restaurant recommendations.",
+  },
+  {
+    id: "3",
+    propertyId: "1",
+    userName: "David Park",
+    userAvatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=60",
+    rating: 4,
+    date: "October 2024",
+    comment: "Beautiful property with stunning views. Only minor issue was the WiFi speed, but honestly, you come here to disconnect anyway!",
+  },
+];
+
+export const userBookings = [
+  {
+    id: "1",
+    propertyId: "1",
+    propertyTitle: "Luxury Beachfront Villa",
+    propertyImage: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=400&auto=format&fit=crop&q=60",
+    location: "Maldives, South Malé Atoll",
+    checkIn: "2025-02-15",
+    checkOut: "2025-02-22",
+    guests: 2,
+    totalPrice: 3150,
+    status: "confirmed" as const,
+  },
+  {
+    id: "2",
+    propertyId: "3",
+    propertyTitle: "Charming Paris Apartment",
+    propertyImage: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400&auto=format&fit=crop&q=60",
+    location: "Paris, Le Marais",
+    checkIn: "2025-03-10",
+    checkOut: "2025-03-15",
+    guests: 2,
+    totalPrice: 900,
+    status: "pending" as const,
+  },
+  {
+    id: "3",
+    propertyId: "2",
+    propertyTitle: "Modern Mountain Chalet",
+    propertyImage: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=400&auto=format&fit=crop&q=60",
+    location: "Swiss Alps, Zermatt",
+    checkIn: "2024-12-20",
+    checkOut: "2024-12-27",
+    guests: 4,
+    totalPrice: 2240,
+    status: "cancelled" as const,
+  },
+];
+
+export const hostProperties = [
+  {
+    id: "1",
+    title: "Luxury Beachfront Villa",
+    location: "Maldives, South Malé Atoll",
+    image: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=400&auto=format&fit=crop&q=60",
+    price: 450,
+    status: "active" as const,
+    bookings: 12,
+    earnings: 18500,
+  },
+  {
+    id: "7",
+    title: "Cozy Beach Bungalow",
+    location: "Maldives, Ari Atoll",
+    image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400&auto=format&fit=crop&q=60",
+    price: 280,
+    status: "active" as const,
+    bookings: 8,
+    earnings: 9800,
+  },
+];
+
+export const hostBookingRequests = [
+  {
+    id: "1",
+    propertyTitle: "Luxury Beachfront Villa",
+    guestName: "Michael Chen",
+    guestAvatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=60",
+    checkIn: "2025-02-15",
+    checkOut: "2025-02-22",
+    guests: 2,
+    totalPrice: 3150,
+    status: "pending" as const,
+  },
+  {
+    id: "2",
+    propertyTitle: "Luxury Beachfront Villa",
+    guestName: "Emma Wilson",
+    guestAvatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=60",
+    checkIn: "2025-03-01",
+    checkOut: "2025-03-07",
+    guests: 2,
+    totalPrice: 2700,
+    status: "confirmed" as const,
+  },
+  {
+    id: "3",
+    propertyTitle: "Cozy Beach Bungalow",
+    guestName: "David Park",
+    guestAvatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=60",
+    checkIn: "2025-02-20",
+    checkOut: "2025-02-25",
+    guests: 2,
+    totalPrice: 1400,
+    status: "rejected" as const,
+  },
+];
+
+export const adminStats = {
+  totalUsers: 15420,
+  totalHosts: 2150,
+  activeProperties: 8340,
+  confirmedBookings: 45230,
+  totalRevenue: 2840000,
+  usersChange: 12,
+  hostsChange: 8,
+  propertiesChange: 15,
+  bookingsChange: 22,
+  revenueChange: 18,
+};
+
+export const revenueData = [
+  { month: "Jan", revenue: 180000 },
+  { month: "Feb", revenue: 210000 },
+  { month: "Mar", revenue: 195000 },
+  { month: "Apr", revenue: 240000 },
+  { month: "May", revenue: 280000 },
+  { month: "Jun", revenue: 320000 },
+  { month: "Jul", revenue: 380000 },
+  { month: "Aug", revenue: 410000 },
+  { month: "Sep", revenue: 340000 },
+  { month: "Oct", revenue: 290000 },
+  { month: "Nov", revenue: 260000 },
+  { month: "Dec", revenue: 335000 },
+];
+
+export const occupancyData = [
+  { name: "Occupied", value: 68, fill: "hsl(var(--success))" },
+  { name: "Available", value: 24, fill: "hsl(var(--primary))" },
+  { name: "Maintenance", value: 8, fill: "hsl(var(--muted))" },
+];
+
+export const adminUsers = [
+  { id: "1", name: "Michael Chen", email: "michael@example.com", role: "Renter", status: "active" as const, joinDate: "2024-01-15" },
+  { id: "2", name: "Sarah Johnson", email: "sarah@example.com", role: "Host", status: "active" as const, joinDate: "2019-03-22" },
+  { id: "3", name: "Emma Wilson", email: "emma@example.com", role: "Renter", status: "active" as const, joinDate: "2023-08-10" },
+  { id: "4", name: "David Park", email: "david@example.com", role: "Renter", status: "inactive" as const, joinDate: "2022-11-05" },
+  { id: "5", name: "Marie Dubois", email: "marie@example.com", role: "Host", status: "active" as const, joinDate: "2018-06-18" },
+];
+
+export const adminProperties = [
+  { id: "1", title: "Luxury Beachfront Villa", host: "Sarah Johnson", location: "Maldives", status: "active" as const, bookings: 12 },
+  { id: "2", title: "Modern Mountain Chalet", host: "Hans Mueller", location: "Swiss Alps", status: "active" as const, bookings: 8 },
+  { id: "3", title: "Charming Paris Apartment", host: "Marie Dubois", location: "Paris", status: "active" as const, bookings: 24 },
+  { id: "4", title: "Tropical Treehouse Escape", host: "Wayan Sukma", location: "Bali", status: "inactive" as const, bookings: 15 },
+];
+
+export const adminBookings = [
+  { id: "1", property: "Luxury Beachfront Villa", guest: "Michael Chen", dates: "Feb 15-22, 2025", amount: 3150, status: "confirmed" as const },
+  { id: "2", property: "Charming Paris Apartment", guest: "Emma Wilson", dates: "Mar 10-15, 2025", amount: 900, status: "pending" as const },
+  { id: "3", property: "Modern Mountain Chalet", guest: "David Park", dates: "Dec 20-27, 2024", amount: 2240, status: "cancelled" as const },
+  { id: "4", property: "Tropical Treehouse", guest: "Lisa Anderson", dates: "Jan 5-12, 2025", amount: 1925, status: "confirmed" as const },
+];
